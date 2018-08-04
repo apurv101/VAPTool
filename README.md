@@ -1,9 +1,20 @@
 # VAPTool
 ![python3.x](https://img.shields.io/badge/python-3.x-brightgreen.svg)
 
-Boilerplate Template for a Flask application.
+Create 3d visualizations of a city in real-time and analysing data to better living world.
+
+Create 3d visualizations of a city in real-time With our 3d visualisation tools you can add 3d models to world wind web and edit their size, angles of heading, pitch, roll and position in real-time. For diaster response, economic planning and controlling through visualisation and mapping. The GDP of the world is growing at a rate of around 3%. And the population of earth is growing at a rate of 1.2%. These rates means that the world needs more cities to house the people who are lifted out of poverty. Moreover in developing world rural population is migrating to urban centres further escalating the need of housing. For these reasons we need to be prepared for the environmental impact these the urban centres will bring to the earth. For this we have developed a 3d visualisation tool where you can visualise the existing cities, neighbourhoods. With World Wind Web we want government and planners to be equipped with a tool where they can easily go through multiple plans.
 
 ## Getting Started
+Leaflet and World Wind Web have been used to build this project.
+On leaflet map on the left side you can click and place a footprint indicating the placement of 3d model on the right side World Wind Web.
+You have the facility to choose a model from dropdown above. Just select a model and start clicking to place the selected model.
+You have the facility to choose a model from dropdown above. Just select a model and start clicking to place the selected model.
+You can also edit the scale(which determines the size of the model), heading, roll and pitch(rotation along x, y and z axes).
+
+## How to Navigate
+The Left Leaflet Map :- Use the scroll to zoom in or zoom out. Or use the buttons on top left of the map. To move the map around, just drag the map while holding the left click.
+The World Wind Map:- Use scroll to zoom in or zoom out. To move the map around, drag the map while holding the left click. To pan around in 3d, drag the map while holding the right click.
 
 ### 1. Clone the Repository
 ```
@@ -25,7 +36,12 @@ pip install -r requirements.txt
 ### 4. Run the app
 ```
 python run.py
+
 ```
+## Future Planning
+In future, the facilities to rotate, scale and translate the 3d model will come into place. You will be able to edit the footprint which will immediately scale, rotate or move the 3d model on World Wind Web.
+We are also adding the functionality to upload unlimited 3d models to choose from while creating a 3d plan.
+And finally you will be able to save these plans, come back, view them and edit them, anytime. We will also provide ways to download entire plans as sketchup or revit files.
 
 ## Contributing
 
