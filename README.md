@@ -49,11 +49,10 @@ python run.py
 
 ```
 ## Future Planning
-```
 In future, the facilities to rotate, scale and translate the 3d model will come into place. You will be able to edit the footprint which will immediately scale, rotate or move the 3d model on World Wind Web.
 We are also adding the functionality to upload unlimited 3d models to choose from while creating a 3d plan.
 And finally you will be able to save these plans, come back, view them and edit them, anytime. We will also provide ways to download entire plans as sketchup or revit files.
-```
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/defineapoorv/VAPTool. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
