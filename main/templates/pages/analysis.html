@@ -1,0 +1,59 @@
+{% extends 'layouts/main.html' %}
+{% block title %}About{% endblock %}
+{% block content %}
+
+<div class="jumbotron">
+  <div class="container">
+    <h5 class="display-3">Analysis</h5>
+    <p>Analysis Data and statsticate.</p>
+  </div>
+</div>
+
+<div >
+  <!-- Example row of columns -->
+  <form class="md-form">
+    <div class="file-field">
+        <div class="btn btn-primary btn-sm float-left">
+            <span>Choose file</span>
+            <input type="file">
+        </div>
+        <div class="file-path-wrapper">
+           <input class="file-path validate" type="text" placeholder="Upload your file">
+        </div>
+    </div>
+</form>
+</div>
+
+<div class="container">
+  <div id="graphdiv4" style="width:480px; height:320px;"></div>
+  <script type="text/javascript">
+    g4 = new Dygraph(
+      document.getElementById("graphdiv4"),
+      "/static/js/twonormals.csv",
+      {
+        rollPeriod: 7,
+        showRoller: true,
+        errorBars: true,
+        valueRange: [50,125]
+      }
+    );
+  </script>
+
+  <!-- <div id="graphdiv"></div>
+  <script type="text/javascript">
+    g = new Dygraph(
+
+      // containing div
+      document.getElementById("graphdiv"),
+
+      // CSV or path to a CSV file.
+      "Date,Temperature\n" +
+      "2008-05-07,75\n" +
+      "2008-05-08,70\n" +
+      "2008-05-09,80\n"
+
+    );
+  </script> -->
+</div> <!-- /container -->
+
+{% endblock %}
