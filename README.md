@@ -1,5 +1,5 @@
-# Flask Bootstrap 4 Boilerplate
-![python3.x](https://img.shields.io/badge/python-3.x-brightgreen.svg)  ![python2.x](https://img.shields.io/badge/python-2.x-yellow.svg)
+# VAPTool
+![python3.x](https://img.shields.io/badge/python-3.x-brightgreen.svg)
 
 Boilerplate Template for a Flask application.
 
@@ -7,12 +7,12 @@ Boilerplate Template for a Flask application.
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/samanyougarg/flask-bootstrap-boilerplate.git
+git clone https://github.com/defineapoorv/VAPTool.git
 ```
 
 ### 2. Setup Virtual Environment
 ```
-cd flask-bootstrap-boilerplate
+cd VAPTool
 virtualenv venv
 source venv/bin/activate
 ```
@@ -29,7 +29,7 @@ python run.py
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/samanyougarg/flask-bootstrap-boilerplate. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/defineapoorv/VAPTool. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 To submit a pull request - 
 
@@ -37,4 +37,3 @@ To submit a pull request -
 2. Develop.
 3. Create a new branch from the master branch.
 4. Open a pull request on Github describing what was fixed or added.
-# VAPTool
